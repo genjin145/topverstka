@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое - topverstka</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="start">
+        <div class="start__progress"></div>
+
+        <div class="start__inner container">
+          <button class="start__button button" type="button">
+            Начать демонстрацию
+          </button>
+        </div>
+      </div>
+
+      <section class="hero swiper">
+        <ul class="hero__slider swiper-wrapper">
+          <li class="hero__slide swiper-slide">
+            <picture class="hero__picture">
+              <source
+                media="(min-width: 1170px)"
+                srcset="<%=require('/src/images/hero/slider_1.jpg')%>"
+              />
+              <source
+                srcset="<%=require('/src/images/hero/slider_1min.jpg')%>"
+              />
+              <img
+                class="hero__picture-image"
+                src="<%=require('/src/images/hero/slider_1.jpg')%>"
+                alt="Девушка"
+              />
+            </picture>
+
+            <div class="hero__container container">
+              <div class="hero__content">
+                <h1 class="hero__title">
+                  Этот текст добавлен для демонстрации на странице
+                </h1>
+                <p class="hero__paragraph hero__paragraph_laptop">
+                  Акция действует с 01.07.18 по 31.07.18
+                </p>
+                <p class="hero__paragraph hero__paragraph_mobile">
+                  Тест на внимательность
+                </p>
+
+                <div class="hero__buttons">
+                  <a class="hero__more button" href="#">Подробнее</a>
+                  <a class="hero__all button-outline" href="#">Все акции</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="hero__slide swiper-slide">
+            <picture class="hero__picture">
+              <source
+                media="(min-width: 1170px)"
+                srcset="<%=require('/src/images/hero/slider_2.jpg')%>"
+              />
+              <source
+                srcset="<%=require('/src/images/hero/slider_2min.jpg')%>"
+              />
+              <img
+                class="hero__picture-image"
+                src="<%=require('/src/images/hero/slider_2.jpg')%>"
+                alt="Мужчина"
+              />
+            </picture>
+
+            <div class="hero__container container">
+              <div class="hero__content">
+                <h1 class="hero__title">
+                  Этот текст добавлен для демонстрации на странице
+                </h1>
+                <p class="hero__paragraph hero__paragraph_laptop">
+                  Акция действует с 01.07.18 по 31.07.18
+                </p>
+                <p class="hero__paragraph hero__paragraph_mobile">
+                  Тест на внимательность
+                </p>
+
+                <div class="hero__buttons">
+                  <a class="hero__more button" href="#">Подробнее</a>
+                  <a class="hero__all button-outline" href="#">Все акции</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="hero__slide swiper-slide">
+            <picture class="hero__picture">
+              <source
+                media="(min-width: 1170px)"
+                srcset="<%=require('/src/images/hero/slider_3.jpg')%>"
+              />
+              <source
+                srcset="<%=require('/src/images/hero/slider_3min.jpg')%>"
+              />
+              <img
+                class="hero__picture-image"
+                src="<%=require('/src/images/hero/slider_3.jpg')%>"
+                alt="Девушка 2"
+              />
+            </picture>
+
+            <div class="hero__container container">
+              <div class="hero__content">
+                <h1 class="hero__title">
+                  Этот текст добавлен для демонстрации на странице
+                </h1>
+                <p class="hero__paragraph hero__paragraph_laptop">
+                  Акция действует с 01.07.18 по 31.07.18
+                </p>
+                <p class="hero__paragraph hero__paragraph_mobile">
+                  Тест на внимательность
+                </p>
+
+                <div class="hero__buttons">
+                  <a class="hero__more button" href="#">Подробнее</a>
+                  <a class="hero__all button-outline" href="#">Все акции</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="hero__slide swiper-slide">
+            <picture class="hero__picture">
+              <source
+                media="(min-width: 1170px)"
+                srcset="<%=require('/src/images/hero/slider_4.jpg')%>"
+              />
+              <source
+                srcset="<%=require('/src/images/hero/slider_4min.jpg')%>"
+              />
+              <img
+                class="hero__picture-image"
+                src="<%=require('/src/images/hero/slider_4.jpg')%>"
+                alt="Мужчина 2"
+              />
+            </picture>
+
+            <div class="hero__container container">
+              <div class="hero__content">
+                <h1 class="hero__title">
+                  Этот текст добавлен для демонстрации на странице
+                </h1>
+                <p class="hero__paragraph hero__paragraph_laptop">
+                  Акция действует с 01.07.18 по 31.07.18
+                </p>
+                <p class="hero__paragraph hero__paragraph_mobile">
+                  Тест на внимательность
+                </p>
+
+                <div class="hero__buttons">
+                  <a class="hero__more button" href="#">Подробнее</a>
+                  <a class="hero__all button-outline" href="#">Все акции</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="hero__paginations"></div>
+
+        <div class="hero__thumbs swiper container">
+          <ul class="hero__thumbs-inner swiper-wrapper">
+            <li class="hero__thumb swiper-slide">
+              <img
+                class="hero__thumb-image"
+                src="<%=require('/src/images/hero/slider_1pre.jpg')%>"
+                alt=""
+              />
+
+              <div class="hero__thumb-content">
+                <span class="hero__thumb-date">Акция действует с 01.07.18</span>
+                <p class="hero__thumb-paragraph">
+                  Этот текст добавлен для демонстрации на странице
+                </p>
+              </div>
+            </li>
+
+            <li class="hero__thumb swiper-slide">
+              <img
+                class="hero__thumb-image"
+                src="<%=require('/src/images/hero/slider_2pre.jpg')%>"
+                alt=""
+              />
+
+              <div class="hero__thumb-content">
+                <span class="hero__thumb-date">Акция действует с 01.07.18</span>
+                <p class="hero__thumb-paragraph">
+                  Этот текст добавлен для демонстрации на странице
+                </p>
+              </div>
+            </li>
+
+            <li class="hero__thumb swiper-slide">
+              <img
+                class="hero__thumb-image"
+                src="<%=require('/src/images/hero/slider_3pre.jpg')%>"
+                alt=""
+              />
+
+              <div class="hero__thumb-content">
+                <span class="hero__thumb-date">Акция действует с 01.07.18</span>
+                <p class="hero__thumb-paragraph">
+                  Этот текст добавлен для демонстрации на странице
+                </p>
+              </div>
+            </li>
+
+            <li class="hero__thumb swiper-slide">
+              <img
+                class="hero__thumb-image"
+                src="<%=require('/src/images/hero/slider_4pre.jpg')%>"
+                alt=""
+              />
+
+              <div class="hero__thumb-content">
+                <span class="hero__thumb-date">Акция действует с 01.07.18</span>
+                <p class="hero__thumb-paragraph">
+                  Этот текст добавлен для демонстрации на странице
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          class="hero__navigation hero__navigation_prev"
+          type="button"
+          aria-label="Назад"
+        ></button>
+        <button
+          class="hero__navigation hero__navigation_next"
+          type="button"
+          aria-label="Вперед"
+        ></button>
+      </section>
+    </main>
+  </body>
+</html>

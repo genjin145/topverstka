@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 940px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1170px) {
+  .container {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1140px;
+  }
+}

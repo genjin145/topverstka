@@ -1,0 +1,34 @@
+.start {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-light);
+}
+
+.start__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.start__progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 8px;
+  background-color: var(--color-primary);
+  transition: width 5s ease-in-out;
+}
+
+.start__progress_active {
+  width: 100%;
+}
+
+@media (min-width: 1170px) {
+  .start__inner {
+    min-height: 675px;
+  }
+}

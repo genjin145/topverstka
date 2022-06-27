@@ -1,0 +1,24 @@
+.button {
+  display: inline-flex;
+  padding: 10px 20px 13px 26px;
+  color: var(--color-white);
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 3px;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+@media (min-width: 1440px) {
+  .button {
+    padding: 18px 31px 14px;
+    font-size: 16px;
+  }
+}
